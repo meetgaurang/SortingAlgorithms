@@ -2,7 +2,10 @@ package net.sorting;
 
 import java.util.List;
 
-public class SelectionSortAlgorithm implements SortingAlgorithm {
+public class SelectionSort implements SortingAlgorithm {
+	/*
+	 * Sort the given list. Best case complexity: O(N^2) Worst case complexity: O(N^2)
+	 */
 	@Override
 	public void execute(List<Float> floatList) {
 		int size = floatList.size();

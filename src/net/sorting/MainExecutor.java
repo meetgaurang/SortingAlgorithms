@@ -15,13 +15,13 @@ public class MainExecutor {
 		
 		switch (type) {
 			case BUBBLE_SORT:
-				algorithm = new BubbleSortAlgoritham();
+				algorithm = new BubbleSort();
 				break;
 			case SELECTION_SORT:
-				algorithm = new SelectionSortAlgorithm();
+				algorithm = new SelectionSort();
 				break;
 			default:
-				algorithm = new BubbleSortAlgoritham();
+				algorithm = new BubbleSort();
 		}
 		algorithm.execute(floatList);
 		System.out.println("\nHere is the sorted list using " + type + ": ");

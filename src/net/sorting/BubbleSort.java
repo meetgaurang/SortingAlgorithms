@@ -2,7 +2,7 @@ package net.sorting;
 
 import java.util.List;
 
-public class BubbleSortAlgoritham implements SortingAlgorithm {
+public class BubbleSort implements SortingAlgorithm {
 	/*
 	 * Sort the given list. Best case complexity: O(N) Worst case complexity: O(N^2)
 	 */
